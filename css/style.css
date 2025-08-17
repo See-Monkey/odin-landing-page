@@ -12,32 +12,126 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/a38403e7d81cc8305af16ac48
     box-sizing: border-box;
 }
 
+html {
+    font-family: Verdana, Calibri, sans-serif;
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /*========== header ==========*/
 .header {
+    background-color: #1F2937;
+}
 
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /*========== title ===========*/
 .title {
+    background-color: #1F2937;
+}
 
+.title-content {
+
+}
+
+.title-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title-body {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /*=========== info ===========*/
 .info {
+    background-color: #F9FAF8;
+}
 
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cardboard {
+
+}
+
+.card {
+
+}
+
+.card-img {
+
+}
+
+.subtext {
+    color: #1F2937;
+    font-size: 18px;
 }
 
 /*========== quote ===========*/
 .quote {
+    background-color: #E5E7EB;
+}
 
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 /*=========== call ===========*/
 .call {
+    background-color: #F9FAF8;
+}
 
+.call-banner {
+    background-color: #3882F6;
+}
+
+.call-content {
+
+}
+
+.call-header {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call-body {
+    color: #E5E7EB;
+    font-size: 16px;
 }
 
 /*========== footer ==========*/
 .footer {
-
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
 }
